@@ -11,7 +11,3 @@
 <br/>
 
 <img src="https://raw.githubusercontent.com/jupiterorbita/git_assets/master/CD_Horizontal_Logo_Blue.png" alt="Coding Dojo Logo" width="180">
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/jupiterorbita/git_assets/master/MERN-logo-white.jpg" alt="Mern logo" width="180">
