@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All the doggos</title>
+</head>
+<body>
+    <h1>All dogs</h1>
+    {{all_dogs}}
+    <a href="/dogs/new">create dog</a>
+    <hr>
+
+    {% for one_dog in all_dogs %}
+        <p>
+            <a href="/dogs/{{one_dog.id}}/show">
+                {{one_dog['name']}}
+            </a>
+             is a {{one_dog.color}}, {{one_dog.breed}}
+        </p>
+    {% endfor %}
+</body>
+</html>
